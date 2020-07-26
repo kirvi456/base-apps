@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "lib": ["es2017", "dom", "DOM.Iterable"],
+        "module": "Commonjs",
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "outDir": "./compiled",
+        "rootDir": "./",
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "plugins": [
+            {
+                "name": "ts-lit-plugin",
+                "strict": true
+            }
+        ]
+    },
+}

@@ -1,0 +1,27 @@
+{
+  "name": "base-projects",
+  "version": "1.0.0",
+  "description": "Esta sera la base usada para todos los proyectos futuros.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "serve": "webpack-dev-server"
+  },
+  "author": "kirvi",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^4.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "lit-element": "^2.3.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "path": "^0.12.7",
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7",
+    "typescript-lit-html-plugin": "^0.9.0",
+    "typescript-tslint-plugin": "^0.5.5",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
